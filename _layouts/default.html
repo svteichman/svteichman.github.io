@@ -4,17 +4,32 @@
 			<title>{{ page.title }}</title>
 			<!-- link to main stylesheet -->
 			<link rel="stylesheet" type="text/css" href="/css/main.css">
+			<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
 		</head>
 		<body>
-			<nav>
-	    		<ul>
-	        		<li><a href="/">Home</a></li>
-		        	<li><a href="/research">Research</a></li>
-              <li><a href="/teaching">Teaching</a></li>
-	        		<li><a href="/cv">CV</a></li>
-	        		<li><a href="/contact">Contact</a></li>
-	    		</ul>
-			</nav>
+			<nav class="navbar navbar-inverse navbar-fixed-top">
+			      <div class="container">
+				<div class="navbar-header">
+				  <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+				    <span class="sr-only">Toggle navigation</span>
+				    <span class="icon-bar"></span>
+				    <span class="icon-bar"></span>
+				    <span class="icon-bar"></span>
+				  </button>
+				  <a class="navbar-brand">{{ site.title }}</a>
+				</div>
+				<div id="navbar" class="collapse navbar-collapse">
+				  <ul class="nav navbar-nav">
+					 <li><a class="active" href="//svteichman.github.io">Home</a></li>
+					 <li><a class="active" href="research.html">Research</a></li>
+					 <li><a class="active" href="teaching.html">Teaching</a></li>
+					 <li><a class="active" href="cv.html">CV</a></li>
+					 <li><a class="active" href="contact.html">Contact</a></li>
+				  </ul>
+				</div><!--/.nav-collapse -->
+			      </div>
+			    </nav>
+
 			<div class="container">
 			
 			{{ content }}
@@ -22,8 +37,8 @@
 			</div><!-- /.container -->
 			<footer>
 	    		<ul>
-	        		<li><a href="mailto:teichs@uw.edu">email</a></li>
-	        		<li><a href="https://github.com/svteichman">github.com</a></li>
+				<li style="color:#999999"> email: teichs [at] uw [dot] edu </li>
+	        		<li><a href = "https://github.com/svteichman"><i class="fa fa-github" aria-hidden="true"></i> svteichman</a></li>
 				</ul>
 			</footer>
 		</body>
