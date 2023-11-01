@@ -5,11 +5,31 @@ title:  'Research'
 
 <h1>Research</h1>
 
+<h3>Current Projects</h3>
+
+<h4>Modeling differential abundance in the presence of unknown detection effects</h4>
+<p class="content" style="padding:0px;margin:0px 20px 0px;">
+  I am currently working with Amy D Willis and Michael D Lee on a method for modeling differential abundance in the presence of unknown detection effects.
+  Differential abundance is a common area of study in microbiome science, in which we want to know how the abundance of biological categories (for example taxa or genes) varies over covariate levels.
+  This is challenging due to unknown detection effects from the technology used to measure abundance of these categories from samples. 
+  We are developing a estimation equations approach to estimating and testing differential abundance parameters that is scalable for a large number of categories.
+</p>
+
 <h4>Visualization of phylogenetic trees</h4>
 <p class="content" style="padding:0px;margin:0px 20px 0px;">
-  I work with <a href = "http://statisticaldiversitylab.com/">Amy Willis</a> to develop methods to compare and visualize phylogenetic trees. 
-  We are currently developing a visualization tool to help researchers compare individual gene phylogenies in order to identify genes that have evolved differently and the effect of these outlying genes on an estimated genome level phylogenomic tree.
+  Microbial evolution is often studied by performing analyes at the level of the microbial genome.
+  However different genes in a single genome can be subject to different evolutionary pressures, which can result in distinct gene-level evolutionary histories.
+  We address the challenge of studying a set of gene-level histories with an interactive visualization method to compare a set of phylogenetic trees.
+  We use a local linear approximation of phylogenetic tree space to visualze estimated gene-level phylogenies as points in a low-dimensional Euclidean space.
+  This can be useful for identifying genes that have evolved differently from the other genes in a genome and for comparing summary genome-level trees estimated with different gene sets.
+  <ul>
+    <item>Sarah Teichman, Michael D Lee, Amy D Willis (2023) Analyzing microbial evolution through gene and genome phylogenies. Biostatistics. <a href="paper">https://academic.oup.com/biostatistics/advance-article/doi/10.1093/biostatistics/kxad025/7332152?utm_source=advanceaccess&utm_campaign=biostatistics&utm_medium=email</a></item>
+    <item>The R package `groves` implements the methodology from this paper. <a href="package">https://github.com/statdivlab/groves</a></item>
+  </ul>
 </p>
+
+
+<h3>Past Projects</h3>
 
 <h4>Statistical modeling of wage heterogeneity</h4>
 <p class="content" style="padding:0px;margin:0px 20px 0px;">
