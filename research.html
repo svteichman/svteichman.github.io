@@ -9,11 +9,17 @@ title:  'Research'
 
 <h4>Modeling differential abundance in the presence of unknown detection effects</h4>
 <p class="content" style="padding:0px;margin:0px 20px 0px;">
-  I am currently working with Amy D Willis and Michael D Lee on a method for modeling differential abundance in the presence of unknown detection effects.
-  Differential abundance is a common area of study in microbiome science, in which we want to know how the abundance of biological categories (for example taxa or genes) varies over covariate levels.
-  This is challenging due to unknown detection effects from the technology used to measure abundance of these categories from samples. 
-  We are developing a estimation equations approach to estimating and testing differential abundance parameters that is scalable for a large number of categories.
+  Much of my current research is related to differential abundance analysis. This is a common type of analysis run in microbiome science, in 
+  which we aim to study how the abundance of biological categories (for example taxa or genes) vary across covariate levels. This is challenging
+  due to unknown detection effects from the technology used to gather abundance data from microbial samples. In 
+  <a href = "https://arxiv.org/abs/2402.05231">this paper</a>, Clausen Teichman and Willis discuss the type of differential abundance estimands that can reasonably be
+  studied from the high throughput sequencing data that is common in microbiome applications, and introduce a method to estimate and test one such estimand.
+  I have developed a fast approximation to the testing procedure from this method, to be used in settings in which more computationally scalable inference 
+  is required. I have also developed a model for gene abundances observed from high throughput sequencing data and shown the difficulties of directly
+  applying methods developed for taxon abundances to this gene abundance data. 
 </p>
+
+<h3>Past Projects</h3>
 
 <h4>Visualization of phylogenetic trees</h4>
 <p class="content" style="padding:0px;margin:0px 20px 0px;">
@@ -26,9 +32,6 @@ title:  'Research'
   <li>Sarah Teichman, Michael D Lee, Amy D Willis (2023) "Analyzing microbial evolution through gene and genome phylogenies." <i>Biostatistics</i>. <a href="https://academic.oup.com/biostatistics/advance-article/doi/10.1093/biostatistics/kxad025/7332152?utm_source=advanceaccess&utm_campaign=biostatistics&utm_medium=email">paper</a></li>
   <li>The R package `groves` implements the methodology from this paper. <a href="https://github.com/statdivlab/groves">package</a></li>
 </p>
-
-
-<h3>Past Projects</h3>
 
 <h4>Statistical modeling of wage heterogeneity</h4>
 <p class="content" style="padding:0px;margin:0px 20px 0px;">
